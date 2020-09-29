@@ -6,7 +6,6 @@ import Hero from '../components/Hero'
 import Article from '../components/Article'
 import PrevNextPost from '../components/PrevNextPost'
 import SEO from '../components/SEO'
-import Disqus from '../components/Disqus'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -37,9 +36,9 @@ class BlogPostTemplate extends React.Component {
           <Article post={post} />
         </Wrapper>
 
-        <Wrapper as="aside">
+        {/* <Wrapper as="aside">
           <Disqus slug={post.frontmatter.slug} title={post.frontmatter.title} />
-        </Wrapper>
+        </Wrapper> */}
 
         <PrevNextPost previous={previous} next={next} />
       </Layout>

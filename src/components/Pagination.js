@@ -93,17 +93,17 @@ class Pagination extends React.Component {
     return (
       <PaginationWrapper>
         {currentPage !== 1 ? (
-          <PreviousBtn to={previousUrl}>‹ Newer posts</PreviousBtn>
+          <PreviousBtn to={previousUrl}>‹ 上一页</PreviousBtn>
         ) : (
           <Spacer className="previous" />
         )}
 
         <PageInfo>
-          Page {currentPage} of {nbPages}
+          当前页： {currentPage}，总共： {nbPages}
         </PageInfo>
 
         {currentPage < nbPages ? (
-          <NextBtn to={`/pages/${currentPage + 1}`}>Older posts ›</NextBtn>
+          <NextBtn to={`/pages/${currentPage + 1}`}>下一页 ›</NextBtn>
         ) : (
           <Spacer className="next" />
         )}

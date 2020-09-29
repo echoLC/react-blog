@@ -7,7 +7,6 @@ import Layout from '../components/layout'
 import Wrapper from '../components/Wrapper'
 import SEO from '../components/SEO'
 import RelatedPosts from '../components/RelatedPosts'
-import { Text } from '../components/Commons'
 
 const MainTitle = styled.h1`
   line-height: 1.5;
@@ -66,12 +65,8 @@ const NotFoundPage = props => {
         <Ghost role="img" aria-label="Ghost">
           👻
         </Ghost>
-        <Text>
-          Looks like you've followed a broken link or entered a URL that doesn't
-          exist on this site.
-        </Text>
 
-        <SubTitle>Recent Posts</SubTitle>
+        <SubTitle>最近的博客</SubTitle>
 
         <RelatedPosts posts={posts} />
       </Wrapper>

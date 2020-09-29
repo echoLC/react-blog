@@ -10,7 +10,7 @@ module.exports = {
   disqusSiteUrl: 'https://echolc.github.io/',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
   pathPrefix: '/', // Note: it must *not* have a trailing slash.
-  siteCover: 'cover-baymax.jpeg', // file in content/images
+  siteCover: 'huoyingzhishui.jpg', // file in content/images
   googleAnalyticsId: 'UA-67868977-2',
   background_color: '#ffffff',
   theme_color: '#222222',

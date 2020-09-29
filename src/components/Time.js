@@ -10,7 +10,7 @@ const Time = props => {
 
   const dateObject = new Date(date)
   const yyyymmdd = dateObject
-    .toLocaleDateString('zh_cn', {
+    .toLocaleDateString('chinese', {
       year: 'numeric',
       month: '2-digit',
       day: 'numeric',
@@ -18,7 +18,7 @@ const Time = props => {
     .split('/')
     .reverse()
     .join('-')
-  const friendlyDate = dateObject.toLocaleDateString('zh_cn', {
+  const friendlyDate = dateObject.toLocaleDateString('chinese', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
