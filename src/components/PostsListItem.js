@@ -5,7 +5,6 @@ import TagList from './TagList'
 import useSiteMetadata from '../hooks/use-site-config'
 import styled from 'styled-components'
 import { colors } from '../tokens'
-import { Bull, ReadingTime } from './Commons'
 
 const Post = styled.article`
   border-bottom: 1px solid rgba(214, 209, 230, 0.5);
@@ -72,12 +71,10 @@ const PostsListItem = props => {
 
       <footer>
         <FooterLine>
-          <ReadingTime min={timeToRead} />
-          <Bull />
           <TagList tags={tags} />
         </FooterLine>
         <ReadPost to={`/${slug}`} aria-label={`View ${title} article`}>
-          Read post ›
+          阅读 ›
         </ReadPost>
       </footer>
     </Post>

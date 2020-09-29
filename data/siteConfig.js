@@ -1,20 +1,15 @@
 module.exports = {
-  siteTitle: 'gatsby-starter-morning-dew',
-  siteDescription: 'A Gatsby theme/starter to build lightning-fast websites',
-  authorName: 'Maxence Poutord',
-  twitterUsername: '_maxpou',
+  siteTitle: 'echoLC',
+  siteDescription: 'A React blog which build to use Gatsby',
+  authorName: 'echoLC',
+  twitterUsername: 'echoLC',
   authorAvatar: 'avatar.jpeg', // file in content/images
-  defaultLang: 'en', // show flag if lang is not default. Leave empty to enable flags in post lists
-  authorDescription: `
-  For the last decade, Maxence Poutord has worked with a variety of web technologies. He is currently focused on front-end development.
-  On his day to day job, he is working as a senior front-end engineer at VSware. He is also an occasional tech speaker and a mentor.
-  As a digital nomad, he is living where the WiFi and sun are 😎 <br>
-  Do you want to know more? <a href="https://www.maxpou.fr/about" rel="noopener" target="_blank">Visit my website!</a>
-  `,
-  siteUrl: 'https://maxpou.github.io/',
-  disqusSiteUrl: 'https://www.maxpou.fr/',
+  defaultLang: 'zh_cn', // show flag if lang is not default. Leave empty to enable flags in post lists
+  authorDescription: `来自欢聚集团的前端开发开发工程师，现居广州。`,
+  siteUrl: 'https://echolc.github.io/',
+  disqusSiteUrl: 'https://echolc.github.io/',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
-  pathPrefix: '/gatsby-starter-morning-dew', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/', // Note: it must *not* have a trailing slash.
   siteCover: 'cover-baymax.jpeg', // file in content/images
   googleAnalyticsId: 'UA-67868977-2',
   background_color: '#ffffff',
@@ -23,21 +18,17 @@ module.exports = {
   icon: 'content/images/baymax.png',
   postsPerPage: 6,
   disqusShortname: 'maxpou',
-  headerTitle: 'gatsby-starter-morning-dew',
+  headerTitle: 'echoLC',
   headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
   headerLinks: [
     {
-      label: 'Blog',
+      label: '博客',
       url: '/',
     },
     {
-      label: 'About',
-      url: '/about-gatsby-starter-morning-dew',
-    },
-    {
-      label: 'Installation',
-      url: '/how-to-install',
-    },
+      label: '关于',
+      url: '/about',
+    }
   ],
   // Footer information (ex: Github, Netlify...)
   websiteHost: {
@@ -46,36 +37,32 @@ module.exports = {
   },
   footerLinks: [
     {
-      sectionName: 'Explore',
+      sectionName: '探索',
       links: [
         {
-          label: 'Blog',
+          label: '博客',
           url: '/',
         },
         {
-          label: 'About',
-          url: '/about-gatsby-starter-morning-dew',
-        },
-        {
-          label: 'Installation',
-          url: '/how-to-install',
-        },
+          label: '关于',
+          url: '/about',
+        }
       ],
     },
     {
-      sectionName: 'Follow the author',
+      sectionName: '关注我',
       links: [
         {
           label: 'GitHub',
-          url: 'https://github.com/maxpou/gatsby-starter-morning-dew',
+          url: 'https://github.com/echoLC',
         },
         {
-          label: 'Website',
-          url: 'https://www.maxpou.fr',
+          label: '网站',
+          url: 'https://echolc.github.io/',
         },
         {
-          label: 'Twitter',
-          url: 'https://twitter.com/_maxpou',
+          label: '掘金',
+          url: 'https://juejin.im/user/3702810893618253',
         },
       ],
     },

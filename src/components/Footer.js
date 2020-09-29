@@ -129,14 +129,15 @@ const Footer = () => {
             {authorName} © {new Date().getFullYear()}
           </h3>
           <p className="footer-item-text">
-            Built with{' '}
+            使用 {' '}
             <a className="footer-link" href="https://www.gatsbyjs.org">
               Gatsby
             </a>
+            构建
             .
           </p>
           <p className="footer-item-text">
-            Theme using{' '}
+            主题使用 {' '}
             <a
               className="footer-link"
               href="https://github.com/maxpou/gatsby-starter-morning-dew"
@@ -146,11 +147,10 @@ const Footer = () => {
             .
           </p>
           <p className="footer-item-text">
-            Hosted with{' '}
+            部署在 {' '}
             <span className="footer-heart" role="img" aria-label="Love">
               ❤
             </span>{' '}
-            by{' '}
             <a className="footer-link" href={websiteHost.url}>
               {websiteHost.name}
             </a>

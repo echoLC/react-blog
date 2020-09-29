@@ -23,7 +23,7 @@ class Tags extends React.Component {
         <Hero title={pageTitle} />
 
         <Wrapper>
-          <PageTitle>Posts tagged as {this.props.pageContext.tag}</PageTitle>
+          <PageTitle>博客标签：{this.props.pageContext.tag}</PageTitle>
           <PostsList posts={posts} />
         </Wrapper>
       </Layout>
