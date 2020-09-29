@@ -8,6 +8,7 @@ const DisqusWrapper = props => {
   if (!disqusShortname) {
     return null
   }
+  
   const disqusConfig = {
     url: `${disqusSiteUrl}${props.slug}`,
     title: props.title,

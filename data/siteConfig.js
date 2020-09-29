@@ -17,7 +17,7 @@ module.exports = {
   display: 'standalone',
   icon: 'content/images/baymax.png',
   postsPerPage: 6,
-  disqusShortname: 'maxpou',
+  disqusShortname: 'echoLC',
   headerTitle: 'echoLC',
   headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
   headerLinks: [
