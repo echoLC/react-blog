@@ -7,6 +7,8 @@ import Wrapper from '../components/Wrapper'
 import Hero from '../components/Hero'
 import SEO from '../components/SEO'
 
+import '../styles/index.css'
+
 export default props => {
   const page = props.data.page
 
