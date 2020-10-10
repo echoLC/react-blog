@@ -26,6 +26,7 @@ class BlogList extends React.Component {
         <Pagination
           nbPages={pageContext.nbPages}
           currentPage={pageContext.currentPage}
+          total={pageContext.total}
         />
       </Layout>
     )

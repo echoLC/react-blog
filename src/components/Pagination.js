@@ -87,7 +87,7 @@ const PageInfo = styled.span`
 
 class Pagination extends React.Component {
   render() {
-    const { currentPage, nbPages } = this.props
+    const { currentPage, nbPages, total } = this.props
     const previousUrl = currentPage === 2 ? '/' : `/pages/${currentPage - 1}`
 
     return (
@@ -99,7 +99,7 @@ class Pagination extends React.Component {
         )}
 
         <PageInfo>
-          当前页： {currentPage}，总共： {nbPages}
+          当前页： {currentPage}，总共： {nbPages} 页，博客数：{total}
         </PageInfo>
 
         {currentPage < nbPages ? (
