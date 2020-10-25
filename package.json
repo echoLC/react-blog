@@ -17,6 +17,8 @@
   "author": "echoLC <651644100@qq.com>",
   "scripts": {
     "build": "gatsby build",
+    "release": "release-it",
+    "prerelease": "yarn build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js' 'data/siteConfig.js' 'gatsby-*.js' 'scripts/*.js'",
     "generatePostPreviewImages": "./scripts/generatePostPreviewImages.js",
@@ -60,9 +62,11 @@
     "styled-components": "^5.1.0"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^2.0.0",
     "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot",
     "prettier": "^2.0.5",
     "puppeteer": "^1.17.0",
+    "release-it": "^14.2.0",
     "semantic-release": "^15.13.18",
     "yaml": "^1.6.0"
   },
