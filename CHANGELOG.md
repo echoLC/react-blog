@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/echoLC/react-blog/compare/v0.2.0...v0.3.0) (2020-10-25)
+
+
+### Features
+
+* 添加了新博客 ([37ac762](https://github.com/echoLC/react-blog/commit/37ac7625123c16d41a19cd150c3015201beee917))
+
 # 0.2.0 (2020-10-25)
 
 
