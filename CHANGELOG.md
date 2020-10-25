@@ -1,3 +1,5 @@
+## [0.3.1](https://github.com/echoLC/react-blog/compare/v0.3.0...v0.3.1) (2020-10-25)
+
 # [0.3.0](https://github.com/echoLC/react-blog/compare/v0.2.0...v0.3.0) (2020-10-25)
 
 
