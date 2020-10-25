@@ -18,6 +18,7 @@
   "scripts": {
     "build": "gatsby build",
     "release": "release-it",
+    "release:dry": "release-it --dry-run",
     "prerelease": "yarn build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js' 'data/siteConfig.js' 'gatsby-*.js' 'scripts/*.js'",
