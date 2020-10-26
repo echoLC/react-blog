@@ -24,7 +24,3 @@ npm run format
 
 # lint code
 npm run lint
-
-# Generate generate post preview images (npm run dev need to run before)
-npm run generatePostPreviewImages
-```
