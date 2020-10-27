@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/echoLC/react-blog/compare/v0.3.4...v0.4.0) (2020-10-26)
+
+
+### Features
+
+* 更新文档 ([0975018](https://github.com/echoLC/react-blog/commit/0975018f26c57eb0cdcabac997ebe2c1de9f7be5))
+
 ## [0.3.4](https://github.com/echoLC/react-blog/compare/v0.3.3...v0.3.4) (2020-10-25)
 
 ## [0.3.3](https://github.com/echoLC/react-blog/compare/v0.3.2...v0.3.3) (2020-10-25)
