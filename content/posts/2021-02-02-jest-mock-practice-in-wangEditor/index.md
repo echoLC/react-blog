@@ -1,5 +1,5 @@
 ---
-title: Typescript中的条件类型
+title: Jest模拟技术在 wangEditor 中的实践
 slug: jest-mock-practice-inn-wangEditor
 cover: ./cover4.png
 generate-card: false
