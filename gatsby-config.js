@@ -98,5 +98,11 @@ module.exports = {
         modules: ['gatsby-starter-morning-dew'],
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-M25TQVJ'
+      }
+    }
   ],
 }
